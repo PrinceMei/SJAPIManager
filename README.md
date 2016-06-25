@@ -6,8 +6,8 @@
 本框架提供了以下功能
 * 支持按时间, 登陆状态, 版本号缓存网络请求数据
 * 支持检查返回的 JSON 是否合法
-* 采用delegate方式回调
-等等
+* 采用delegate方式回调  
+* ...
 
 具体使用如下: 
 * 设置请求类型     - (SJAPIManagerRequestType)requestType , 
@@ -17,5 +17,5 @@
 * 设置参数     - (NSDictionary *)paramsForAPI:(SJAPIBaseManager *)manager , 
 * 设置请求头    - (NSDictionary *)headersForAPI:(SJAPIBaseManager *)manager
 * 请求数据回调成功后, 可以在拦截器中-(void)beforePerformSuccessWithResponse:(SJAPIResponse *)response 中预处理, 供控制器使用
-* 等等其他使用见源码
+* 其他使用见源码
 
